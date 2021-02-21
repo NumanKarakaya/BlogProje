@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletisim</title>
+    <link rel="stylesheet" type="text/css" href="./css/iletisim.css"> 
+</head>
+<body>
+    <div class="global">
+        <header class="header">
+          <nav class="nav" id="main-nav">
+            <p>Javascript Kursu</p>
+            <div class="inner">              
+            <ul>
+              <li><a href="İndex.html">İndex</a></li>
+              <li><a href="Kayıt.html">Kayıt Ol</a></li>
+              <li><a href="İletisim.html">İletisim</a></li>
+              <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+              <li><a href="İçeriklerim.html">İçeriklerim</a></li>                        
+            </ul>            
+            </div>      
+          </nav>
+        </header>
+      </div>
+      <div class="content" style="text-align: center;">
+        
+          
+          <h2 style="text-align: center;">İletişim Formu</h2>        
+          <div><input class="form" type="text" placeholder="AD SOYAD:" required></div>
+          <div><input class="form" type="email" placeholder="EMAİL:" required></div><br>
+          <div><textarea cols="50" rows="10" placeholder="Lütfen mesajınız yaz" required></textarea></div>
+          <div id="button">
+              <input type="button" value="Gönder" onclick="tikla()">
+          </div>        
+          <div>
+              <br><span>Anasayfaya mı dönmek istiyorsun?</span>
+              <a href="İndex.html">Anasayfa Dön</a>
+          </div>        
+         
+       <article><strong style="color: black;"> Numan Karakaya</strong> ile iletişim için sosyal medya hesapları aşağıdadır:</article>
+        <img src="./img/facebook.png">
+        <img src="./img/google.png">
+        <img src="./img/instagram.png">
+        <img src="./img/pinterest.png">
+        <img src="./img/twitter.png">
+        <img src="./img/youtube.png">
+      </div>
+      <script>
+        function tikla(){
+          alert("Mesajınız Gönderildi.Dönüş Yapılacaktır.");
+        }
+      </script>
+</body>
+</html>
